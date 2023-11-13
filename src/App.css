@@ -920,3 +920,11 @@ form input , textarea{
 }
     }
 
+
+      @media only screen and (max-width: 450px) {
+        .main-resume .left a{
+          font-size: 12px;
+          padding-left: 5px;
+        }
+
+      }

@@ -1,10 +1,11 @@
 import React from "react";
 import Typical from "react-typical";
+import adminpic from '../img/PITAM_DAS_PHOTO-1-removebg-preview.png'
 
 const Home = () => {
   return (
     <div className="home" id="home">
-{/* <div className="blur"></div>
+      {/* <div className="blur"></div>
 <div className="blur-2"></div> */}
       <div className="home-left">
         <div className="social">
@@ -58,25 +59,20 @@ const Home = () => {
                   "React Developer",
                   3000,
                 ]}
-              wrapper='p'
+                wrapper="p"
               />
             </h1>
           </span>
         </div>
         {/* <div className="home-btn"> */}
-          <a className="resume" href="images\Pitam Das Resume.pdf" download>
-            Resume
-          </a>
+        <a className="resume" href="images\Pitam Das Resume.pdf" download>
+          Resume
+        </a>
         {/* </div> */}
       </div>
       <div className="home-right">
         <div className="pic">
-          <img
-            className="pro-pic"
-            src="https://media.licdn.com/dms/image/C4D03AQFVTM2nhlgfzA/profile-displayphoto-shrink_400_400/0/1642169899427?e=1677110400&v=beta&t=dIk2J2boxTau02ouKaFEUvPKzVAvfhbLslr1f6KSRe4"
-            alt=""
-            srcset=""
-          />
+          <img className="pro-pic" src={adminpic} alt="" srcset="" />
           <div className="circle">
             <span className="one">
               <img
